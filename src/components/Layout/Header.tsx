@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-3 md:py-4 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img src="https://placehold.co/200x80?text=SCSSA+Logo" alt="SCSSA Logo" className="h-10 md:h-12" />
+          <img src="scssa-logo.png" alt="SCSSA Logo" className="h-10 md:h-12" />
         </Link>
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
