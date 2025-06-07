@@ -7,6 +7,7 @@ import {
   MailIcon,
   MapPinIcon,
 } from "lucide-react";
+
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white">
@@ -14,19 +15,24 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Left Section */}
           <div className="flex flex-col space-y-4">
-            <img
-              src="https://placehold.co/200x80?text=SCSSA+Logo&bg=111827&fc=ffffff"
-              alt="SCSSA Logo"
-              className="h-12 mb-2"
-            />
-            <h3 className="text-xl font-semibold">
-              SCSSA – University of Kelaniya
-            </h3>
-            <p className="text-gray-300 max-w-md">
+            <div className="flex items-center space-x-4">
+              <img
+                src="scssa-logo.png"
+                alt="SCSSA Logo"
+                className="h-16 w-auto object-contain"
+              />
+              <div>
+                <h3 className="text-2xl font-bold leading-tight">SCSSA</h3>
+                <div className="text-base font-semibold">University of Kelaniya</div>
+              </div>
+            </div>
+
+            <p className="text-gray-300 max-w-md mt-2">
               The Statistics and Computer Science Students' Association
               represents and supports students in the Department of Statistics
               and Computer Science at the University of Kelaniya.
             </p>
+
             <div className="flex space-x-4 mt-4">
               <a
                 href="https://facebook.com"
@@ -35,7 +41,7 @@ const Footer: React.FC = () => {
                 aria-label="Facebook"
                 className="text-white hover:text-blue-400"
               >
-                <FacebookIcon size={24} />
+                <FacebookIcon size={20} />
               </a>
               <a
                 href="https://whatsapp.com"
@@ -44,10 +50,11 @@ const Footer: React.FC = () => {
                 aria-label="WhatsApp"
                 className="text-white hover:text-green-400"
               >
+                {/* Placeholder WhatsApp icon */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -68,52 +75,32 @@ const Footer: React.FC = () => {
                 aria-label="LinkedIn"
                 className="text-white hover:text-blue-400"
               >
-                <LinkedinIcon size={24} />
+                <LinkedinIcon size={20} />
               </a>
             </div>
           </div>
+
           {/* Center Section */}
           <div className="flex flex-col space-y-4">
             <h3 className="text-xl font-semibold">Quick Links</h3>
             <div className="grid grid-cols-2 gap-2">
-              <Link to="/" className="text-gray-300 hover:text-white">
-                Home
-              </Link>
-              <Link to="/events" className="text-gray-300 hover:text-white">
-                Upcoming Events
-              </Link>
-              <Link to="/news" className="text-gray-300 hover:text-white">
-                News & Highlights
-              </Link>
-              {/* <Link to="/blog" className="text-gray-300 hover:text-white">
-                Blog
-              </Link> */}
-              <Link to="/contact" className="text-gray-300 hover:text-white">
-                Contact
-              </Link>
-              <Link to="/about" className="text-gray-300 hover:text-white">
-                About Us
-              </Link>
-              <Link to="/exco" className="text-gray-300 hover:text-white">
-                Committee
-              </Link>
+              <Link to="/" className="text-gray-300 hover:text-white">Home</Link>
+              <Link to="/events" className="text-gray-300 hover:text-white">Upcoming Events</Link>
+              <Link to="/news" className="text-gray-300 hover:text-white">News & Highlights</Link>
+              <Link to="/contact" className="text-gray-300 hover:text-white">Contact</Link>
+              <Link to="/about" className="text-gray-300 hover:text-white">About Us</Link>
+              <Link to="/exco" className="text-gray-300 hover:text-white">Committee</Link>
             </div>
+
             <h3 className="text-xl font-semibold mt-6">Resources</h3>
             <div className="grid grid-cols-2 gap-2">
-              <a href="#" className="text-gray-300 hover:text-white">
-                Student Handbook
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white">
-                Academic Calendar
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white">
-                Department Website
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white">
-                University Portal
-              </a>
+              <a href="#" className="text-gray-300 hover:text-white">Student Handbook</a>
+              <a href="#" className="text-gray-300 hover:text-white">Academic Calendar</a>
+              <a href="#" className="text-gray-300 hover:text-white">Department Website</a>
+              <a href="#" className="text-gray-300 hover:text-white">University Portal</a>
             </div>
           </div>
+
           {/* Right Section */}
           <div className="flex flex-col space-y-4">
             <h3 className="text-xl font-semibold">Contact Us</h3>
@@ -121,12 +108,9 @@ const Footer: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <MapPinIcon size={20} className="flex-shrink-0 mt-1" />
                 <p className="text-gray-300">
-                  Department of Statistics & Computer Science,
-                  <br />
-                  Faculty of Science,
-                  <br />
-                  University of Kelaniya,
-                  <br />
+                  Department of Statistics & Computer Science,<br />
+                  Faculty of Science,<br />
+                  University of Kelaniya,<br />
                   Kelaniya, Sri Lanka
                 </p>
               </div>
@@ -141,29 +125,20 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
+
         {/* Bottom Section */}
         <div className="mt-12 pt-6 border-t border-gray-800 text-center md:flex md:justify-between md:items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Statistics and Computer Science Students Association. All
-            rights reserved.
+            © 2025 Statistics and Computer Science Students Association. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
-            <Link
-              to="/privacy-policy"
-              className="text-gray-400 text-sm hover:text-white mr-6"
-            >
-              Privacy Policy
-            </Link>
-            <Link
-              to="/terms-of-use"
-              className="text-gray-400 text-sm hover:text-white"
-            >
-              Terms of Use
-            </Link>
+            <Link to="/privacy-policy" className="text-gray-400 text-sm hover:text-white mr-6">Privacy Policy</Link>
+            <Link to="/terms-of-use" className="text-gray-400 text-sm hover:text-white">Terms of Use</Link>
           </div>
         </div>
       </div>
     </footer>
   );
 };
+
 export default Footer;
