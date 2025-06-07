@@ -1,5 +1,5 @@
-import React from 'react';
-import { LinkedinIcon, FacebookIcon } from 'lucide-react';
+import React from "react";
+import { LinkedinIcon, FacebookIcon } from "lucide-react";
 interface MemberCard {
   id: string;
   name: string;
@@ -11,128 +11,196 @@ interface MemberCard {
 }
 const ExCo: React.FC = () => {
   // Academic members
-  const academicMembers: MemberCard[] = [{
-    id: 'a1',
-    name: 'Prof. Samantha Silva',
-    position: 'Senior Treasurer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Professor of Statistics with 15 years of experience. Research interests include Bayesian statistics and statistical computing.',
-    linkedin: 'https://linkedin.com'
-  }, {
-    id: 'a2',
-    name: 'Dr. Amal Perera',
-    position: 'Academic Advisor',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-    bio: 'Senior Lecturer specializing in computer science education and software engineering practices.',
-    linkedin: 'https://linkedin.com',
-    facebook: 'https://facebook.com'
-  }];
+  const academicMembers: MemberCard[] = [
+    {
+      id: "a1",
+      name: "Dr. Basitha Kavinga",
+      position: "Senior Treasurer",
+      image:
+        "https://science.kln.ac.lk/depts/stcs/images/Staff/Academic/Basithakavinga.jpg",
+      bio: "Senior Lecturer in the Department of Statistics and Computer Science, specializing in Time Series Analysis and Stochastic Processes.",
+      linkedin:
+        "https://www.linkedin.com/in/dr-basitha-kavinga-university-of-kelaniya-a68bb3312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  ];
   // Top board members
-  const boardMembers: MemberCard[] = [{
-    id: 'b1',
-    name: 'Dinesh Rajasinghe',
-    position: 'President',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Final year student majoring in Data Science. Passionate about AI and machine learning applications in healthcare.',
-    linkedin: 'https://linkedin.com',
-    facebook: 'https://facebook.com'
-  }, {
-    id: 'b2',
-    name: 'Shalini Fernando',
-    position: 'Vice President',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Third year student with interests in statistical modeling and data visualization. Active member of the university debate team.',
-    linkedin: 'https://linkedin.com',
-    facebook: 'https://facebook.com'
-  }, {
-    id: 'b3',
-    name: 'Kavinda Jayawardena',
-    position: 'Secretary',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Final year Computer Science student with experience in web development and project management.',
-    linkedin: 'https://linkedin.com'
-  }, {
-    id: 'b4',
-    name: 'Malini Gunaratne',
-    position: 'Treasurer',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Third year student specializing in Statistical Finance. Skilled in budget management and financial planning.',
-    facebook: 'https://facebook.com'
-  }, {
-    id: 'b5',
-    name: 'Nuwan Bandara',
-    position: 'Editor',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: "Second year student with a passion for technical writing and digital media. Manages the association's blog and newsletter.",
-    linkedin: 'https://linkedin.com',
-    facebook: 'https://facebook.com'
-  }];
+  const boardMembers: MemberCard[] = [
+    {
+      id: "b1",
+      name: "Dasun Navindu",
+      position: "President",
+      image: "/images/Committee/president.jpg",
+      bio: "",
+      linkedin:
+        "https://www.linkedin.com/in/dasun-navindu-987857292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+      id: "b2",
+      name: "Chirath Rasandun",
+      position: "Vice President",
+      image: "/images/Committee/vice-president.jpg",
+      bio: "",
+      linkedin:
+        "https://www.linkedin.com/in/chirath-rasandun-00526327b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+      id: "b3",
+      name: "Sandali Tharushika",
+      position: "Secretary",
+      image: "/images/Committee/secretary.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/sandali-sewmini-8a87a3314/",
+    },
+    {
+      id: "b4",
+      name: "Samadhi Anusara",
+      position: "Vice Secretary",
+      image: "/images/Committee/samadhi.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/samadhi-jagathsiri-566931314/",
+    },
+    {
+      id: "b5",
+      name: "Jithnuka Weerasinghe",
+      position: "Treasurer",
+      image: "/images/Committee/jithnuka.jpg",
+      bio: "",
+      linkedin:
+        "https://www.linkedin.com/in/jithnuka-weerasinghe-b9408b25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    },
+  ];
   // Committee members
-  const committeeMembers: MemberCard[] = [{
-    id: 'c1',
-    name: 'Thilini Perera',
-    position: '4th Year Representative',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80',
-    bio: 'Final year student focusing on Machine Learning. Coordinates academic support programs for seniors.',
-    linkedin: 'https://linkedin.com'
-  }, {
-    id: 'c2',
-    name: 'Rajitha Dissanayake',
-    position: '3rd Year Representative',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Third year student interested in software development. Leads the coding club within the department.',
-    facebook: 'https://facebook.com'
-  }, {
-    id: 'c3',
-    name: 'Chamari Silva',
-    position: '2nd Year Representative',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80',
-    bio: 'Second year student with interests in data analysis and visualization. Organizes peer study groups.',
-    linkedin: 'https://linkedin.com',
-    facebook: 'https://facebook.com'
-  }, {
-    id: 'c4',
-    name: 'Asanka Wijethilaka',
-    position: '1st Year Representative',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'First year student passionate about programming and statistical computing. Helps new students adjust to university life.',
-    linkedin: 'https://linkedin.com'
-  }, {
-    id: 'c5',
-    name: 'Lakshmi Gunasekara',
-    position: 'Event Coordinator',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80',
-    bio: 'Third year student with excellent organizational skills. Manages all association events and activities.',
-    facebook: 'https://facebook.com'
-  }, {
-    id: 'c6',
-    name: 'Hasitha Weerasinghe',
-    position: 'Media Coordinator',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Second year student with skills in graphic design and social media management. Handles all digital communications.',
-    linkedin: 'https://linkedin.com',
-    facebook: 'https://facebook.com'
-  }];
+  const committeeMembers: MemberCard[] = [
+    {
+      id: "c1",
+      name: "deshitha Pavidu",
+      position: "Editor",
+      image: "/images/Committee/deshitha.jpg",
+      bio: "",
+      linkedin: "https://linkedin.com",
+    },
+    {
+      id: "c2",
+      name: "Matheesha Koralegedara",
+      position: "Co Editor",
+      image: "/images/Committee/matheesha.jpg",
+      bio: "",
+      linkedin:
+        "https://www.linkedin.com/in/matheesha-koralegedara-8090b2236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+      id: "c3",
+      name: "Ravindu Indranath",
+      position: "Co Editor",
+      image: "/images/Committee/ravindu.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/indranath-ravindu-95423b356/",
+    },
+    {
+      id: "c4",
+      name: "Manavee Mahindapala",
+      position: "4th Year Representative",
+      image: "/images/Committee/manavee.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/manavee-mahindapala99/",
+    },
+    {
+      id: "c5",
+      name: "Kavindu Dilshan",
+      position: "3rd Year Representative",
+      image: "/images/Committee/4th.jpg",
+      bio: "",
+      linkedin:
+        "https://www.linkedin.com/in/kavindu-dilshan-abeysekara-161387225/",
+    },
+    {
+      id: "c6",
+      name: "Nidula Dharmapriya",
+      position: "2nd Year Representative",
+      image: "/images/Committee/nidula.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/nidula-dharmapriya/",
+    },
+    {
+      id: "c6",
+      name: "Pasindu Serasinghe",
+      position: "2nd Year Representative",
+      image: "/images/Committee/pasindu.jpg",
+      bio: "",
+      linkedin: "https://linkedin.com",
+    },
+    {
+      id: "c6",
+      name: "Chandali Nirmitha",
+      position: "2nd Year Representative",
+      image: "/images/Committee/chandali.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/chandali-nirmitha-22209427b/",
+    },
+    {
+      id: "c6",
+      name: "Movindu Anusara",
+      position: "2nd Year Representative",
+      image: "/images/Committee/movindu.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/movindu-anusara-9441b1258/",
+    },
+    {
+      id: "c6",
+      name: "Chamith Madhusanka",
+      position: "2nd Year Representative",
+      image: "/images/Committee/chamith.jpg",
+      bio: "",
+      linkedin: "https://www.linkedin.com/in/chamith-madhusanka-378412310/",
+    },
+    {
+      id: "c6",
+      name: "Maneesha Sathsara",
+      position: "1st Year Representative",
+      image: "/images/Committee/maneesha.jpg",
+      bio: "",
+      linkedin: "https://linkedin.com",
+    },
+  ];
   const MemberCard: React.FC<{
     member: MemberCard;
-  }> = ({
-    member
-  }) => {
-    return <div className="bg-white rounded-lg shadow-md overflow-hidden group">
+  }> = ({ member }) => {
+    return (
+      <div className="bg-white rounded-lg shadow-md overflow-hidden group">
         <div className="relative overflow-hidden">
-          <img src={member.image} alt={member.name} className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110" />
+          <img
+            src={member.image}
+            alt={member.name}
+            className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
             <p className="text-white text-sm mb-4">{member.bio}</p>
             <div className="flex space-x-2">
-              {member.linkedin && <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors" aria-label={`${member.name}'s LinkedIn profile`}>
+              {member.linkedin && (
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors"
+                  aria-label={`${member.name}'s LinkedIn profile`}
+                >
                   <LinkedinIcon size={16} />
-                </a>}
-              {member.facebook && <a href={member.facebook} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors" aria-label={`${member.name}'s Facebook profile`}>
+                </a>
+              )}
+              {member.facebook && (
+                <a
+                  href={member.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors"
+                  aria-label={`${member.name}'s Facebook profile`}
+                >
                   <FacebookIcon size={16} />
-                </a>}
-              <button className="bg-green-600 text-white px-3 py-1 rounded-full text-sm hover:bg-green-700 transition-colors ml-auto">
+                </a>
+              )}
+              {/* <button className="bg-green-600 text-white px-3 py-1 rounded-full text-sm hover:bg-green-700 transition-colors ml-auto">
                 Follow
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -140,9 +208,11 @@ const ExCo: React.FC = () => {
           <h3 className="font-bold text-lg text-gray-800">{member.name}</h3>
           <p className="text-blue-600">{member.position}</p>
         </div>
-      </div>;
+      </div>
+    );
   };
-  return <div className="bg-gray-50 min-h-screen w-full">
+  return (
+    <div className="bg-gray-50 min-h-screen w-full">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-10">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -157,8 +227,12 @@ const ExCo: React.FC = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
             Executive Academic Members
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {academicMembers.map(member => <MemberCard key={member.id} member={member} />)}
+          <div className="flex justify-center items-center min-h-[300px]">
+            {academicMembers.map((member) => (
+              <div className="w-full max-w-md">
+                <MemberCard key={member.id} member={member} />
+              </div>
+            ))}
           </div>
         </section>
         {/* Top Board Members */}
@@ -167,7 +241,9 @@ const ExCo: React.FC = () => {
             Top Board Members
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {boardMembers.map(member => <MemberCard key={member.id} member={member} />)}
+            {boardMembers.map((member) => (
+              <MemberCard key={member.id} member={member} />
+            ))}
           </div>
         </section>
         {/* Committee Members */}
@@ -176,7 +252,9 @@ const ExCo: React.FC = () => {
             Committee Members
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {committeeMembers.map(member => <MemberCard key={member.id} member={member} />)}
+            {committeeMembers.map((member) => (
+              <MemberCard key={member.id} member={member} />
+            ))}
           </div>
         </section>
         {/* Join the Committee CTA */}
@@ -193,6 +271,7 @@ const ExCo: React.FC = () => {
           </button>
         </div>
       </div>
-    </div>;
+    </div>
+  );
 };
 export default ExCo;
