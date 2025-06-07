@@ -1,13 +1,24 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { FacebookIcon, LinkedinIcon, PhoneIcon, MailIcon, MapPinIcon } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  FacebookIcon,
+  LinkedinIcon,
+  PhoneIcon,
+  MailIcon,
+  MapPinIcon,
+} from "lucide-react";
 const Footer: React.FC = () => {
-  return <footer className="bg-gray-900 text-white">
+  return (
+    <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Left Section */}
           <div className="flex flex-col space-y-4">
-            <img src="https://placehold.co/200x80?text=SCSSA+Logo&bg=111827&fc=ffffff" alt="SCSSA Logo" className="h-12 mb-2" />
+            <img
+              src="https://placehold.co/200x80?text=SCSSA+Logo&bg=111827&fc=ffffff"
+              alt="SCSSA Logo"
+              className="h-12 mb-2"
+            />
             <h3 className="text-xl font-semibold">
               SCSSA – University of Kelaniya
             </h3>
@@ -17,18 +28,46 @@ const Footer: React.FC = () => {
               and Computer Science at the University of Kelaniya.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-white hover:text-blue-400">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="text-white hover:text-blue-400"
+              >
                 <FacebookIcon size={24} />
               </a>
-              <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-white hover:text-green-400">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <a
+                href="https://whatsapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="text-white hover:text-green-400"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
                   <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
                   <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
                   <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
                   <path d="M9.5 15.5a5 5 0 0 0 5 0" />
                 </svg>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-white hover:text-blue-400">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="text-white hover:text-blue-400"
+              >
                 <LinkedinIcon size={24} />
               </a>
             </div>
@@ -41,14 +80,14 @@ const Footer: React.FC = () => {
                 Home
               </Link>
               <Link to="/events" className="text-gray-300 hover:text-white">
-                Events
+                Upcoming Events
               </Link>
               <Link to="/news" className="text-gray-300 hover:text-white">
-                News
+                News & Highlights
               </Link>
-              <Link to="/blog" className="text-gray-300 hover:text-white">
+              {/* <Link to="/blog" className="text-gray-300 hover:text-white">
                 Blog
-              </Link>
+              </Link> */}
               <Link to="/contact" className="text-gray-300 hover:text-white">
                 Contact
               </Link>
@@ -109,15 +148,22 @@ const Footer: React.FC = () => {
             rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
-            <Link to="/privacy-policy" className="text-gray-400 text-sm hover:text-white mr-6">
+            <Link
+              to="/privacy-policy"
+              className="text-gray-400 text-sm hover:text-white mr-6"
+            >
               Privacy Policy
             </Link>
-            <Link to="/terms-of-use" className="text-gray-400 text-sm hover:text-white">
+            <Link
+              to="/terms-of-use"
+              className="text-gray-400 text-sm hover:text-white"
+            >
               Terms of Use
             </Link>
           </div>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
 export default Footer;
