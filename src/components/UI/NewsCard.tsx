@@ -1,6 +1,6 @@
-import React from 'react';
-import { CalendarIcon } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { CalendarIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 interface NewsCardProps {
   id: string;
   title: string;
@@ -15,9 +15,10 @@ const NewsCard: React.FC<NewsCardProps> = ({
   category,
   date,
   image,
-  summary
+  summary,
 }) => {
-  return <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+  return (
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-5">
         <div className="flex justify-between items-center mb-2">
@@ -35,13 +36,26 @@ const NewsCard: React.FC<NewsCardProps> = ({
         <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">
           {summary}
         </p>
-        <Link to={`/news/${id}`} className="text-blue-600 dark:text-blue-400 font-medium hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+        <Link
+          to={`/news/${id}`}
+          className="text-blue-600 dark:text-blue-400 font-medium hover:text-blue-800 dark:hover:text-blue-300 flex items-center"
+        >
           Read more
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-            <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-4 w-4 ml-1"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fillRule="evenodd"
+              d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+              clipRule="evenodd"
+            />
           </svg>
         </Link>
       </div>
-    </div>;
+    </div>
+  );
 };
 export default NewsCard;
