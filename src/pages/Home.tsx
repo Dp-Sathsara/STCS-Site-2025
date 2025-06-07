@@ -148,7 +148,7 @@ const Home: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-3xl md:text-5xl font-bold mb-4"
             >
-              Statistics and Computer Science Students' Association
+              Statistics & Computer Science Students' Association
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -250,7 +250,7 @@ const Home: React.FC = () => {
                 About SCSSA
               </h2>
               <p className="text-gray-600 mb-6 text-lg">
-                The Statistics and Computer Science Students' Association
+                The Statistics & Computer Science Students' Association
                 (SCSSA) is the official student body representing undergraduates
                 in the Department of Statistics and Computer Science at the
                 University of Kelaniya.
