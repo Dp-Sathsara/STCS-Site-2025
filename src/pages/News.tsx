@@ -127,122 +127,122 @@ const News: React.FC = () => {
         </div>
         {/* Post News Button */}
         {/* <div className="mb-8 flex justify-end">
-          <button
-            onClick={() => setShowPostForm(!showPostForm)}
-            className="flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition-colors"
-          >
-            <PlusIcon size={18} className="mr-2" />
-            {showPostForm ? "Cancel" : "Post News"}
-          </button>
-        </div> */}
+            <button
+              onClick={() => setShowPostForm(!showPostForm)}
+              className="flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition-colors"
+            >
+              <PlusIcon size={18} className="mr-2" />
+              {showPostForm ? "Cancel" : "Post News"}
+            </button>
+          </div> */}
         {/* Post News Form */}
         {/* {showPostForm && (
-          <div className="bg-white rounded-lg shadow-md p-6 mb-10">
-            <h2 className="text-2xl font-bold mb-6">Post New Article</h2>
-            <form>
-              <div className="mb-4">
-                <label
-                  htmlFor="image"
-                  className="block text-gray-700 font-medium mb-2"
-                >
-                  Image
-                </label>
-                <input
-                  type="file"
-                  id="image"
-                  accept="image/*"
-                  className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="title"
-                  className="block text-gray-700 font-medium mb-2"
-                >
-                  Title
-                </label>
-                <input
-                  type="text"
-                  id="title"
-                  placeholder="Article title"
-                  className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                <div>
+            <div className="bg-white rounded-lg shadow-md p-6 mb-10">
+              <h2 className="text-2xl font-bold mb-6">Post New Article</h2>
+              <form>
+                <div className="mb-4">
                   <label
-                    htmlFor="category"
+                    htmlFor="image"
                     className="block text-gray-700 font-medium mb-2"
                   >
-                    Category
-                  </label>
-                  <select
-                    id="category"
-                    className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  >
-                    {categories
-                      .filter((c) => c !== "All")
-                      .map((category) => (
-                        <option key={category} value={category}>
-                          {category}
-                        </option>
-                      ))}
-                  </select>
-                </div>
-                <div>
-                  <label
-                    htmlFor="author"
-                    className="block text-gray-700 font-medium mb-2"
-                  >
-                    Author Name
+                    Image
                   </label>
                   <input
-                    type="text"
-                    id="author"
-                    placeholder="Your name"
+                    type="file"
+                    id="image"
+                    accept="image/*"
                     className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="summary"
-                  className="block text-gray-700 font-medium mb-2"
-                >
-                  Short Description
-                </label>
-                <textarea
-                  id="summary"
-                  rows={2}
-                  placeholder="Brief summary of the article"
-                  className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                ></textarea>
-              </div>
-              <div className="mb-6">
-                <label
-                  htmlFor="content"
-                  className="block text-gray-700 font-medium mb-2"
-                >
-                  Full Content
-                </label>
-                <textarea
-                  id="content"
-                  rows={6}
-                  placeholder="Write the full article content here..."
-                  className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                ></textarea>
-              </div>
-              <div className="flex justify-end">
-                <button
-                  type="submit"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition-colors"
-                >
-                  Publish Article
-                </button>
-              </div>
-            </form>
-          </div>
-        )} */}
+                <div className="mb-4">
+                  <label
+                    htmlFor="title"
+                    className="block text-gray-700 font-medium mb-2"
+                  >
+                    Title
+                  </label>
+                  <input
+                    type="text"
+                    id="title"
+                    placeholder="Article title"
+                    className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                  <div>
+                    <label
+                      htmlFor="category"
+                      className="block text-gray-700 font-medium mb-2"
+                    >
+                      Category
+                    </label>
+                    <select
+                      id="category"
+                      className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    >
+                      {categories
+                        .filter((c) => c !== "All")
+                        .map((category) => (
+                          <option key={category} value={category}>
+                            {category}
+                          </option>
+                        ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label
+                      htmlFor="author"
+                      className="block text-gray-700 font-medium mb-2"
+                    >
+                      Author Name
+                    </label>
+                    <input
+                      type="text"
+                      id="author"
+                      placeholder="Your name"
+                      className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                  </div>
+                </div>
+                <div className="mb-4">
+                  <label
+                    htmlFor="summary"
+                    className="block text-gray-700 font-medium mb-2"
+                  >
+                    Short Description
+                  </label>
+                  <textarea
+                    id="summary"
+                    rows={2}
+                    placeholder="Brief summary of the article"
+                    className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  ></textarea>
+                </div>
+                <div className="mb-6">
+                  <label
+                    htmlFor="content"
+                    className="block text-gray-700 font-medium mb-2"
+                  >
+                    Full Content
+                  </label>
+                  <textarea
+                    id="content"
+                    rows={6}
+                    placeholder="Write the full article content here..."
+                    className="block w-full text-gray-700 border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  ></textarea>
+                </div>
+                <div className="flex justify-end">
+                  <button
+                    type="submit"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition-colors"
+                  >
+                    Publish Article
+                  </button>
+                </div>
+              </form>
+            </div>
+          )} */}
         {/* News Grid */}
         {filteredNews.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
