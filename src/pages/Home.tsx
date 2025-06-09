@@ -87,9 +87,9 @@ const AnimatedItem: React.FC<AnimatedItemProps> = ({
 const Home: React.FC = () => {
   // Sample data for slideshow
   const slideshowImages = [
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-    "https://images.unsplash.com/photo-1517486808906-6ca8b3f8e1c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+    "https://units.kln.ac.lk/cmu/images/2019/03/07/0t6a6656j.jpg",
+    "https://drive.google.com/drive/u/2/folders/1E6kUERROe7Ya0z2YM6VcaCf92T4OyIF3",
+    "https://units.kln.ac.lk/cmu/images/2019/03/07/0t6a6671.jpg",
   ];
 
   // Sample news data
