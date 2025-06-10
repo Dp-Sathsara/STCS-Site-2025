@@ -88,31 +88,41 @@ const Home: React.FC = () => {
   // Sample data for slideshow
   const slideshowImages = [
     "https://units.kln.ac.lk/cmu/images/2019/03/07/0t6a6656j.jpg",
-    "https://drive.google.com/drive/u/2/folders/1E6kUERROe7Ya0z2YM6VcaCf92T4OyIF3",
+    "Libry.jpg",
     "https://units.kln.ac.lk/cmu/images/2019/03/07/0t6a6671.jpg",
   ];
 
   // Sample news data
   const newsItems = [
     {
-    id: "1",
-    title: "Annual General Meeting",
-    category: "Events",
-    date: "August 31, 2024",
+    id: "7",
+    title: "PyQuest’24",
+    category: "Workshops",
+    date: "November 16, 2024",
     image:
-      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     summary:
-      "SCSSA Annual General Meeting 2024; A Celebration of Triumphs and the Dawn of New Horizons.",
+      "PyQuest24: A Journey into Python Programming.",
   },
     {
-      id: "2",
-      title: "Department Receives Research Grant",
-      category: "News",
-      date: "June 5, 2025",
-      image:
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      summary:
-        "The Department of Statistics and Computer Science has received a prestigious research grant to explore innovative data science applications.",
+    id: "8",
+    title: "STCS Camp 2025",
+    category: "Event",
+    date: "January 11, 2025",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    summary:
+      "STCS Camp 2025, held on 11th January at Che Adventure Park, united over 100 undergraduates for a day of adventure, leadership activities, and industry insights, promoting teamwork, personal growth, and a strong sense of community.",
+    },
+    {
+    id: "5",
+    title: "Stat Bee 2024",
+    category: "Competition",
+    date: "October 17, 2024",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    summary:
+      "Join our upcoming workshop on machine learning fundamentals led by industry experts. Perfect for beginners and intermediate learners.",
     },
   ];
 

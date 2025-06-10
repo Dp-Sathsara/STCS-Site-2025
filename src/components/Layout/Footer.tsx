@@ -94,10 +94,10 @@ const Footer: React.FC = () => {
 
             <h3 className="text-xl font-semibold mt-6">Resources</h3>
             <div className="grid grid-cols-2 gap-2">
-              <a href="#" className="text-gray-300 hover:text-white">Student Handbook</a>
-              <a href="#" className="text-gray-300 hover:text-white">Academic Calendar</a>
-              <a href="#" className="text-gray-300 hover:text-white">Department Website</a>
-              <a href="#" className="text-gray-300 hover:text-white">University Portal</a>
+              <a href="https://science.kln.ac.lk/index.php/for-students/handbooks" className="text-gray-300 hover:text-white">Student Handbook</a>
+              <a href="https://science.kln.ac.lk/images//im/Calendar.pdf" className="text-gray-300 hover:text-white">Academic Calendar</a>
+              <a href="https://science.kln.ac.lk/depts/stcs/" className="text-gray-300 hover:text-white">Department Website</a>
+              <a href="https://studentportal.kln.ac.lk/" className="text-gray-300 hover:text-white">University Portal</a>
             </div>
           </div>
 
