@@ -6,239 +6,125 @@ import { ArrowLeftIcon, CalendarIcon } from "lucide-react";
 const allNewsItems = [
   {
     id: "1",
-    title: "SCSSA Welcomes New Batch of Students",
-    category: "Announcements",
-    date: "June 15, 2025",
+    title: "Annual Genaral Meeting",
+    category: "Events",
+    date: "August 31, 2024",
     image:
-      "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    content: `The Statistics and Computer Science Students' Association (SCSSA) is thrilled to welcome the new batch of students to our department. This marks the beginning of an exciting journey into the world of statistics and computer science.
+      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+    content: `SCSSA Annual General Meeting 2024; A Celebration of Triumphs and the Dawn of New Horizons.
     
-    Our department has prepared a comprehensive orientation program to help new students acclimate to university life and understand the various opportunities available to them. The program includes:
-    • Introduction to department facilities and resources
-    • Overview of course structure and specializations
-    • Meet and greet with faculty members
-    • Interactive sessions with senior students
-    • Introduction to SCSSA activities and membership benefits
+    The 2024 Annual General Meeting (AGM) of the Statistics & Computer Science Students' Association (SCSSA), held on August 31st at the A8 MIT Auditorium, celebrated the conclusion of a remarkable year and the beginning of an exciting new chapter. The outgoing executive committee expressed gratitude to attendees and reflected on the milestones achieved, emphasizing accomplishments that brought pride to SCSSA and highlighted their dedication throughout the year. A presentation of the annual report showcased the association’s achievements, financial status, and future plans, reaffirming its commitment to fostering academic excellence, collaboration, and creativity
+
+
+    A key moment of the AGM was the election of a dynamic new executive committee, including Dasun Navindu as President, Sandali Sewmini as Secretary, Dr. Basitha Kavinga as Senior Treasurer, and Samadhi Anusara as Vice Secretary. Alongside Chamith Madushanka, Chandali Nirmitha, Jithnuka, Movindu Anusara, Nidula Darmapriya, and Pasindu Sankalpa, this talented team is set to lead SCSSA with fresh energy and vision. Additionally, the editorial team—Desitha, Matheesha, and Marry—will play a vital role in supporting the association’s creative and academic initiatives.
     
-    We have also arranged several workshops and social events throughout the first semester to help new students build connections and develop essential skills. These events include:
-    • Programming fundamentals workshop
-    • Statistical computing workshop
-    • Team building activities
-    • Cultural evening
     
-    The SCSSA plays a crucial role in supporting students throughout their academic journey. Our association provides:
-    • Academic support through peer mentoring
-    • Career guidance and industry connections
-    • Professional development opportunities
-    • Social and networking events
-    • Access to learning resources and materials
-    
-    We encourage all new students to actively participate in SCSSA activities and take advantage of the numerous opportunities available to them. Together, we can create a vibrant and supportive learning community.`,
-    author: "Dinesh Rajasinghe",
-    authorRole: "SCSSA President",
+    The AGM concluded with heartfelt appreciation for the outgoing committee's contributions, which have laid a strong foundation for future endeavors. The event left a lasting impression on members, inspiring active participation in the association’s vibrant community. With exciting events and initiatives on the horizon, SCSSA is poised to continue thriving, fostering academic success, and making a meaningful impact in the coming year.`,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
   },
   {
     id: "2",
-    title: "Annual Hackathon Announced",
-    category: "Events",
-    date: "June 10, 2025",
+    title: "Munch Mania 2.0",
+    category: "Event",
+    date: "November 19, 2024",
     image:
-      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-    content: `We are excited to announce our Annual Hackathon 2025! This year's theme is "Technology for Sustainable Future", focusing on innovative solutions that address environmental challenges through technology.
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    content: `SCSSA’s Munch Mania 2.0; A Flavor-Fueled Festival of Fun and Unity!
     
-    Event Details:
-    • Date: July 25-27, 2025
-    • Location: University of Kelaniya, Computer Science Department
-    • Registration Fee: Free for SCSSA members
-    • Team Size: 3-5 members
+    Munch Mania 2.0, a vibrant and exciting two day street food festival, took the University of Kelaniya by storm this November! Organized by the enthusiastic first-year students of the Department of Statistics and Computer Science (DSCS), this unforgettable event unfolded from 19th to 20th behind the A7 building, next to the Science Auditorium. The festival was officially kicked off by Professor Wasana Chandrasekara, who welcomed the crowd to a celebration of flavor, creativity, and community spirit. From 4:00 pm to 6:00 pm each day, the air was filled with the mouthwatering aroma of delicious food, drawing a large and eager crowd who came to indulge in a diverse range of dishes crafted with love and passion. 
     
-    Categories:
-    1. Best Environmental Solution
-    2. Most Innovative Idea
-    3. Best Implementation
-    4. People's Choice Award
+    What truly set Munch Mania 2.0 apart was the dedication and tireless effort of the first-year students, who were the heartbeat of the event. Their energy, enthusiasm, and attention to detail transformed every aspect of the festival—from the initial planning to the final execution—into something truly special. It was clear that their teamwork and commitment made this more than just a food festival; it was a lively and dynamic celebration of community and collaboration. 
     
-    Prizes:
-    • 1st Place: LKR 100,000 + Internship opportunities
-    • 2nd Place: LKR 75,000 + Tech gadgets
-    • 3rd Place: LKR 50,000 + Tech gadgets
+    Munch Mania 2.0 was not just about food; it was about bringing people together, fostering creativity, and celebrating the strength of the DSCS family. The event served as a perfect example of how unity and hard work can create something extraordinary. 
     
-    Schedule:
-    Day 1:
-    • 9:00 AM - Registration
-    • 10:00 AM - Opening ceremony
-    • 11:00 AM - Hackathon begins
-    • 6:00 PM - Dinner
-    
-    Day 2:
-    • All day - Hacking continues
-    • Mentoring sessions available
-    
-    Day 3:
-    • 10:00 AM - Submission deadline
-    • 1:00 PM - Presentations
-    • 4:00 PM - Award ceremony
-    
-    Registration opens next week. Stay tuned for more details on our website and social media channels!`,
-    author: "Nimali Fernando",
-    authorRole: "Events Coordinator",
+    A huge thank you to all the attendees and supporters who made Munch Mania 2.0 a resounding success. The festival wouldn’t have been possible without you! Stay tuned for more exciting events from SCSSA as we continue to spice up the campus with unforgettable experiences! `,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
   },
   {
     id: "3",
-    title: "Department Receives Research Grant",
-    category: "Achievements",
-    date: "June 5, 2025",
+    title: "PhD session(USA) ",
+    category: "Workshops",
+    date: "October 19, 2024",
     image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    content: `We are proud to announce that our Department of Statistics and Computer Science has been awarded a prestigious research grant worth LKR 5 million from the National Science Foundation (NSF) to explore innovative applications of data science in healthcare.
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    content: `SCSSA’s Online Session; Mastering the PhD Application Process in the U.S. 
     
-    Project Details:
-    • Title: "AI-Driven Predictive Models for Early Disease Detection"
-    • Duration: 2 years (July 2025 - June 2027)
-    • Principal Investigator: Prof. Ranjith Perera
-    • Co-Investigators: Dr. Saman Silva, Dr. Priyanka Bandara
+    On the evening of 19th October 2024, the Statistics & Computer Science Students' Association (SCSSA) hosted a highly informative and engaging online session titled "How to Navigate the PhD Application Process in the U.S. (From Application to Admission)". The session, held via Zoom from 8:30 to 9:30 PM, featured Dr. Devindi Rajapaksha, an Assistant Professor of Statistics at the University of Wisconsin - Whitewater, who shared invaluable insights into the journey of applying for PhD programs in top U.S. universities. 
     
-    This research will focus on:
-    • Developing machine learning models for early detection of chronic diseases
-    • Creating predictive analytics tools for public health monitoring
-    • Implementing AI solutions for resource-constrained healthcare settings
+    With the U.S. being a prime destination for higher education, the session served as a crucial guide for students considering or planning to pursue a PhD. Dr. Rajapaksha, drawing from her own experiences, offered a deep dive into the application process, from crafting a compelling statement of purpose to securing strong letters of recommendation and navigating the tricky waters of interviews and admissions decisions. 
     
-    The grant will support:
-    • Research equipment and software
-    • Student research assistantships
-    • Conference participation and publications
-    • Collaboration with healthcare institutions
+    The session targeted a diverse group of students, including demonstrators and undergraduates from the 2nd, 3rd, and 4th years of the Department of Statistics & Computer Science. Dr. Rajapaksha’s insights were not only practical but also deeply personal, as she shared her journey of securing a position at one of the top universities in the U.S., giving attendees a rare opportunity to learn from someone who has successfully navigated the process.
+
+    Participants were able to engage directly with Dr. Rajapaksha, asking questions and receiving personalized advice, making the session highly interactive. The feedback from the attendees was overwhelmingly positive, with many expressing appreciations for the actionable takeaways and the opportunity to learn from someone who has walked the path they are about to embark on.
     
-    "This grant recognizes our department's growing expertise in applied data science and provides exciting opportunities for both faculty and students to contribute to meaningful research," said Prof. Perera.
-    
-    Undergraduate and graduate students interested in participating in this research project should contact the department office for more information about research assistant positions.`,
-    author: "Prof. Ranjith Perera",
-    authorRole: "Head of Department",
+    SCSSA’s commitment to supporting its members' academic and professional ambitions continues to shine through initiatives like this one. This session was just a glimpse of the many opportunities SCSSA is bringing to its members, helping them navigate their educational journeys and beyond.
+
+    Stay tuned for more events and workshops from SCSSA that empower students to achieve their academic dreams and excel in their careers! `,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
   },
   {
     id: "4",
-    title: "New Industry Partnership with Tech Solutions",
-    category: "Achievements",
-    date: "June 1, 2025",
+    title: "Data Science ",
+    category: "Workshops",
+    date: "November 21, 2024",
     image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    content: `The SCSSA is pleased to announce a new strategic partnership with Tech Solutions Ltd., one of Sri Lanka's leading IT solutions providers. This partnership will create valuable opportunities for our students through internships, training programs, and potential employment.
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    content: `Datasight'24 , Illuminating the Path to the Future of Data Science.
     
-    Partnership Benefits:
-    • Internship Program: 20 paid internship positions per year for our students
-    • Industry Workshops: Monthly technical workshops conducted by Tech Solutions experts
-    • Scholarship Program: 5 merit-based scholarships annually
-    • Capstone Projects: Real-world projects for final year students
+    On November 21, 2024, the A8 Auditorium at the University of Kelaniya hosted the highly anticipated Datasight'24, organized by the Statistics & Computer Science Students' Association (SCSSA). Under the theme "Extracting Insights from Data," the event brought together aspiring data scientists, tech enthusiasts, and industry professionals to explore the transformative power of data science. The highlight was a keynote by Mr. Roy Ian, Principal Data Scientist, who shared insights on building a successful career in data science, emphasizing the importance of technical skills and their application in solving real-world challenges. 
     
-    Memorandum of Understanding Signing:
-    The official signing ceremony took place on May 30, 2025 at the university auditorium, attended by:
-    • Prof. Anil Wijesinghe - Dean, Faculty of Science
-    • Mr. Dilan Jayasekara - CEO, Tech Solutions Ltd.
-    • SCSSA executive committee members
+    Mr. Ian’s engaging talk, "Navigating the Path to a Career in Data Science," captivated the audience with practical advice and real-world examples from industries like healthcare and finance. Attendees participated actively in a dynamic Q&A session, delving into emerging trends and strategies for success in the evolving field of data science. The event's interactive nature sparked meaningful discussions, leaving participants inspired and informed.
     
-    "This partnership bridges the gap between academia and industry, providing our students with hands-on experience and exposure to cutting-edge technologies," said SCSSA President Dinesh Rajasinghe.
-    
-    Application Process:
-    Students interested in the internship program can apply through the SCSSA website starting June 15. Selection will be based on:
-    • Academic performance
-    • Technical skills assessment
-    • Interview performance
-    
-    For more information, please contact the SCSSA office or visit our website.`,
-    author: "Tech Solutions Team",
-    authorRole: "Industry Partner",
+    Datasight'24 underscored SCSSA’s dedication to nurturing talent and promoting innovation in data science. By hosting thought-provoking events like these, SCSSA continues to equip its members with the skills and insights needed to thrive in a data-driven world, solidifying its role as a leader in empowering the next generation of data scientists`,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
   },
   {
     id: "5",
-    title: "Workshop on Machine Learning Fundamentals",
-    category: "Workshops",
-    date: "May 25, 2025",
+    title: " Stat Bee 2024",
+    category: "Competition",
+    date: "October 17, 2024",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    content: `Join us for an exciting workshop on Machine Learning Fundamentals, designed for both beginners and intermediate learners. This hands-on workshop will provide participants with practical knowledge and skills in machine learning.
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    content: ` Stat Bee 2024, A Thrilling Quiz Competition by SCSSA.
     
-    Workshop Details:
-    • Date: June 8, 2025 (Sunday)
-    • Time: 9:00 AM - 4:00 PM
-    • Venue: Computer Lab 3, Department of Computer Science
-    • Fee: LKR 1,500 (Free for SCSSA members)
+    The Statistics and Computer Science Students’ Association (SCSSA) of the Faculty of Science, University of Kelaniya, hosted Stat Bee 2024, an exciting quiz competition held during October and November. Organized by the third-year students of the Department of Statistics and Computer Science, the event provided a platform for first- and second-year students to showcase their knowledge in a fun, competitive setting.
     
-    What You'll Learn:
-    • Introduction to Machine Learning concepts
-    • Python for Machine Learning
-    • Data preprocessing and visualization
-    • Supervised vs. unsupervised learning
-    • Building your first ML model
+    The competition unfolded in three stages—Starter, Wizards, and Sorcerers—each progressively more challenging. The Starter Round tested participants’ fundamental understanding of statistics with individual MCQs, while the Wizards Round introduced more complex questions requiring critical thinking and precision under pressure. 
     
-    Workshop Outline:
-    1. Morning Session (9:00 AM - 12:00 PM):
-       - Introduction to ML
-       - Python basics for ML
-       - Data exploration and visualization
+    The Sorcerers Round, the grand finale, brought the top performers together in teams for a live quiz. This interactive and fast-paced stage tested not only knowledge but also teamwork and quick thinking. The lively atmosphere and intense competition made the final round a memorable highlight for both participants and the audience. 
     
-    2. Lunch Break (12:00 PM - 1:00 PM)
+    Beyond the competition, Stat Bee 2024 celebrated teamwork, intellectual growth, and camaraderie. It encouraged cross-batch friendships, sparked greater interest in statistics, and gave students a platform to challenge themselves and build confidence. 
     
-    3. Afternoon Session (1:00 PM - 4:00 PM):
-       - Linear regression
-       - Classification algorithms
-       - Hands-on project
-    
-    Requirements:
-    • Basic programming knowledge (Python preferred)
-    • Laptop with Python installed (instructions will be provided)
-    
-    Registration:
-    Limited seats available! Register by June 5 through:
-    • SCSSA office
-    • Online registration form on our website
-    
-    Participants will receive:
-    • Workshop materials
-    • Certificate of participation
-    • Access to online resources
-    
-    Don't miss this opportunity to kickstart your machine learning journey!`,
-    author: "Dr. Saman Silva",
-    authorRole: "Workshop Instructor",
+    The event’s success was due to the hard work and creativity of the third-year organizing team, whose efforts ensured a seamless and engaging experience. By blending competition, learning, and fun, Stat Bee 2024 has set a new standard for student-led initiatives, inspiring students to explore the fascinating world of statistics. `
+    ,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
   },
   {
     id: "6",
-    title: "SCSSA Members Win National Coding Competition",
-    category: "Achievements",
-    date: "May 20, 2025",
+    title: "PhD Session(Australia)",
+    category: "Workshops",
+    date: "December 22, 2024",
     image:
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    content: `We are proud to announce that our SCSSA team "CodeMasters" has won first place at the National Coding Competition 2025, organized by the Sri Lanka Association of Software and Service Companies (SLASSCOM).
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    content: `Charting the Path to a PhD in Australia, An Inspiring Session for Students 
     
-    Competition Highlights:
-    • 50 teams from universities across Sri Lanka
-    • 8-hour coding marathon
-    • Problems focused on algorithms and data structures
-    • Judged by industry experts
-    
-    Our Winning Team:
-    1. Kasun Perera (Team Leader) - 3rd Year CS
-    2. Nadeesha Gamage - 3rd Year CS
-    3. Amal Silva - 2nd Year CS
-    
-    Their winning solution:
-    • Developed an optimized algorithm for route planning in logistics
-    • Achieved 98% accuracy in test cases
-    • Implemented innovative caching techniques
-    
-    "This victory demonstrates the high caliber of our students and the quality of education at our department," said Dr. Priyanka Bandara, faculty advisor for the team.
-    
-    Awards Received:
-    • Championship trophy
-    • LKR 250,000 cash prize
-    • Internship opportunities at top tech companies
-    • Automatic entry to the International Coding Competition 2026
-    
-    The team will be officially recognized at the upcoming SCSSA general meeting on June 5. Join us in congratulating them on this outstanding achievement!
-    
-    Interested in joining our competitive programming team? Contact the SCSSA office for information about training sessions and selection process.`,
-    author: "SCSSA Media Team",
-    authorRole: "Public Relations",
+    On December 22nd, the Statistics and Computer Science Students’ Association of the Faculty of Science, University of Kelaniya, hosted a special online session that left attendees inspired and motivated. Titled "Pathway to a PhD in Australia: Opportunities and Application Insights," the event brought together curious students and a remarkable speaker to discuss pursuing higher education abroad.
+
+    The session was led by Miss Sithara Wijekoon, a familiar face to many as a former Assistant Lecturer in the Department of Statistics & Computer Science at the University of Kelaniya. Now a PhD candidate in Statistics at the prestigious Queensland University of Technology in Australia, Miss Wijekoon shared her journey, experiences, and practical tips for those considering a similar path. 
+
+    In her talk, she highlighted the steps to successfully apply for a PhD, the importance of identifying the right research area, and strategies for securing scholarships. She also shed light on the academic culture in Australia, offering students a glimpse into what it’s like to live and learn in an international setting. 
+
+    The session wasn’t just about information—it was about inspiration. Miss Wijekoon’s story resonated with many attendees, showing that with determination and the right guidance, pursuing a PhD abroad is within reach. Students left the session feeling more confident about their ambitions and equipped with actionable advice to begin their own journeys. 
+
+    This initiative by the Statistics and Computer Science Students’ Association reflects its dedication to empowering students to dream big and take bold steps toward their academic and career goals.
+    `,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
   },
 ];
 

@@ -95,27 +95,17 @@ const Home: React.FC = () => {
   // Sample news data
   const newsItems = [
     {
-      id: "1",
-      title: "SCSSA Welcomes New Batch of Students",
-      category: "Announcements",
-      date: "June 15, 2025",
-      image:
-        "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      summary:
-        "The SCSSA is excited to welcome the new batch of Statistics and Computer Science students to the University of Kelaniya.",
-    },
+    id: "1",
+    title: "Annual General Meeting",
+    category: "Events",
+    date: "August 31, 2024",
+    image:
+      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+    summary:
+      "SCSSA Annual General Meeting 2024; A Celebration of Triumphs and the Dawn of New Horizons.",
+  },
     {
       id: "2",
-      title: "Annual Hackathon Announced",
-      category: "Events",
-      date: "June 10, 2025",
-      image:
-        "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-      summary:
-        "Get ready for our annual hackathon! This year's theme is 'Technology for Sustainable Future'. Registration opens next week.",
-    },
-    {
-      id: "3",
       title: "Department Receives Research Grant",
       category: "News",
       date: "June 5, 2025",

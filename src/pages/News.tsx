@@ -5,49 +5,49 @@ import NewsCard from "../components/UI/NewsCard";
 const allNewsItems = [
   {
     id: "1",
-    title: "SCSSA Welcomes New Batch of Students",
-    category: "Announcements",
-    date: "June 15, 2025",
-    image:
-      "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    summary:
-      "The SCSSA is excited to welcome the new batch of Statistics and Computer Science students to the University of Kelaniya.",
-  },
-  {
-    id: "2",
-    title: "Annual Hackathon Announced",
+    title: "Annual General Meeting",
     category: "Events",
-    date: "June 10, 2025",
+    date: "August 31, 2024",
     image:
       "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
     summary:
-      "Get ready for our annual hackathon! This year's theme is 'Technology for Sustainable Future'. Registration opens next week.",
+      "SCSSA Annual General Meeting 2024; A Celebration of Triumphs and the Dawn of New Horizons.",
   },
   {
-    id: "3",
-    title: "Department Receives Research Grant",
-    category: "Achievements",
-    date: "June 5, 2025",
+    id: "2",
+    title: "Munch Mania 2.0",
+    category: "Events",
+    date: "November 19, 2024",
     image:
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     summary:
-      "The Department of Statistics and Computer Science has received a prestigious research grant to explore innovative data science applications.",
+      "SCSSA’s Munch Mania 2.0; A Flavor-Fueled Festival of Fun and Unity!.",
   },
   {
-    id: "4",
-    title: "New Industry Partnership with Tech Solutions",
-    category: "Achievements",
-    date: "June 1, 2025",
+    id: "3",
+    title: "PhD session(USA)",
+    category: "Workshops",
+    date: "October 19, 2024",
     image:
       "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     summary:
-      "SCSSA has established a new partnership with Tech Solutions Ltd. to provide internship opportunities for our students.",
+      "SSCSSA’s Online Session; Mastering the PhD Application Process in the U.S. ",
+  },
+  {
+    id: "4",
+    title: "Data Science",
+    category: "Workshops",
+    date: "November 21, 2024",
+    image:
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    summary:
+      "Datasight'24 , Illuminating the Path to the Future of Data Science.",
   },
   {
     id: "5",
-    title: "Workshop on Machine Learning Fundamentals",
-    category: "Workshops",
-    date: "May 25, 2025",
+    title: "Stat Bee 2024",
+    category: "Competition",
+    date: "October 17, 2024",
     image:
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     summary:
@@ -55,13 +55,13 @@ const allNewsItems = [
   },
   {
     id: "6",
-    title: "SCSSA Members Win National Coding Competition",
-    category: "Achievements",
-    date: "May 20, 2025",
+    title: "PhD Session(Australia)",
+    category: "Workshops",
+    date: "December 22, 2024",
     image:
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     summary:
-      "Congratulations to our members who secured first place at the National Coding Competition 2025!",
+      "Charting the Path to a PhD in Australia, An Inspiring Session for Students.",
   },
 ];
 // Unique categories

@@ -73,7 +73,7 @@ const ExCo: React.FC = () => {
   const committeeMembers: MemberCard[] = [
     {
       id: "c1",
-      name: "deshitha Pavidu",
+      name: "Desitha Pavidu",
       position: "Editor",
       image: "/images/Committee/deshitha.jpg",
       bio: "",
