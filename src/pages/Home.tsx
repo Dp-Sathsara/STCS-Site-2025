@@ -89,7 +89,7 @@ const Home: React.FC = () => {
   const slideshowImages = [
     "https://units.kln.ac.lk/cmu/images/2019/03/07/0t6a6656j.jpg",
     "https://i.postimg.cc/9fwr6BMz/2023-01-03-4.jpg",
-    "https://units.kln.ac.lk/cmu/images/2019/03/07/0t6a6671.jpg",
+    "https://i.postimg.cc/LsBfhTt5/Flux-Dev-A-serene-Buddha-statue-surrounded-by-vibrant-glowing-3.jpg",
   ];
 
   // Sample news data
