@@ -126,6 +126,56 @@ const allNewsItems = [
     author: "Chandali Nirmitha",
     authorRole: "Committee Member of SCSSA",
   },
+  {
+    id: "7",
+    title: "PyQuest’24",
+    category: "Workshops",
+    date: "November 16, 2024",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    content: `PyQuest24: A Journey into Python Programming 
+    
+    The Statistics and Computer Science Students' Association (SCSSA) of the Faculty of Science, University of Kelaniya, successfully hosted PyQuest24, an engaging virtual programming workshop that kicked off on Saturday, November 16, 2024. Designed to cater to both beginners and those with advanced knowledge, the workshop provided an excellent platform for students to enhance their Python programming skills.
+
+    The beginner sessions started with the basics, such as Python installation, operators, and control structures. Participants progressed to loops, data structures like lists, sets, and dictionaries, and eventually learned about functions, arrays, string formatting, and Python Lambda. These sessions also included practical lessons on object-oriented programming (OOP) concepts and exception handling, ensuring attendees gained a well-rounded understanding of Python.
+
+    For those ready to dive deeper, the advanced sessions focused on exploratory data analysis (EDA) and data visualization, teaching students how to interpret and present data effectively. The highlight of the workshop was the session on building a machine learning module, where participants applied their newfound skills to a final project. 
+
+    Certificates were awarded to participants who completed tutorials, assignments, quizzes, and a final exam while maintaining at least 80% attendance. This recognition celebrated their dedication and hard work throughout the program.
+
+    PyQuest24 was more than just a workshop,it was an opportunity for students to learn, practice, and grow. By combining hands-on training with real-world applications, SCSSA successfully created an inspiring learning experience that left participants excited about the possibilities of Python programming. 
+
+    `,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
+  },
+  {
+    id: "8",
+    title: "STCS Camp 2025 ",
+    category: "Event",
+    date: "January 11, 2025",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    content: `STCS Camp 2025 – A Day of Unity, Adventure & Growth 
+    
+    Location: Che Adventure Park, Hanwella | Date: 11th January 2025
+    
+    STCS Camp 2025 was a celebration of energy, collaboration, and student spirit. Held at the scenic Che Adventure Park in Hanwella, the event brought together over 100 undergraduate students from the Department of Statistics & Computer Science, University of Kelaniya.
+
+    Organized by the Statistics & Computer Science Students' Association (SCSSA), the camp focused on adventure, team-building, and personal development. A key highlight of the event was the presence of industry leaders and CEOs, who served as judges and mentors—sharing practical insights and bridging the gap between academia and the tech industry.
+
+    Students engaged in thrilling physical and mental challenges that promoted leadership, communication, and resilience, all while enjoying an open, fun, and inclusive environment.
+
+    The atmosphere throughout the day was uplifting, filled with laughter, encouragement, and unforgettable moments. The event stood as a testament to the strong bonds and collective spirit within the department.
+
+    A heartfelt thanks goes out to the organizing team, supportive faculty, and our esteemed industry guests. Their dedication ensured the camp was not just a day of fun—but a meaningful experience that will resonate for years.
+
+    Here’s to more inspiring STCS Camps in the future!
+    
+    `,
+    author: "Chandali Nirmitha",
+    authorRole: "Committee Member of SCSSA",
+  },
 ];
 
 const NewsArticle: React.FC = () => {
