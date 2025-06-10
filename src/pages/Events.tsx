@@ -51,7 +51,7 @@ const Events: React.FC = () => {
     },
     {
       id: "3",
-      title: "Pquest – Python Workshop",
+      title: "Pyquest – Python Workshop",
       date: "September 15, 2025",
       location: "Computer Lab 2, Department Building",
       status: "upcoming",
@@ -65,7 +65,7 @@ const Events: React.FC = () => {
     },
     {
       id: "4",
-      title: "STCS Camp 2024",
+      title: "STCS Camp 2026",
       date: "October 10-12, 2025",
       location: "University Recreation Center",
       status: "upcoming",

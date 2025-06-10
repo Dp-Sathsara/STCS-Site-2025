@@ -71,7 +71,7 @@ const allNewsItems = [
     category: "Workshops",
     date: "November 21, 2024",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "https://i.postimg.cc/bY7LW6wS/Whats-App-Image-2025-06-10-at-3-23-03-PM.jpg",
     content: `Datasight'24 , Illuminating the Path to the Future of Data Science.
     
     On November 21, 2024, the A8 Auditorium at the University of Kelaniya hosted the highly anticipated Datasight'24, organized by the Statistics & Computer Science Students' Association (SCSSA). Under the theme "Extracting Insights from Data," the event brought together aspiring data scientists, tech enthusiasts, and industry professionals to explore the transformative power of data science. The highlight was a keynote by Mr. Roy Ian, Principal Data Scientist, who shared insights on building a successful career in data science, emphasizing the importance of technical skills and their application in solving real-world challenges. 
